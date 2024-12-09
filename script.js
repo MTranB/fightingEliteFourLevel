@@ -1,5 +1,5 @@
 var interval = 900;
-var level = 4;
+var level = 0;
 var open = false;
 var music = new Audio("sounds/battleMusic.m4a");
 var click = new Audio("sounds/click.m4a");
