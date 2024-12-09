@@ -1,4 +1,4 @@
-siteURL = "https://4t87zr.csb.app/";
+siteURL = "https://mtranb.github.io/fightingEliteFourLevel/";
 //checks the src of the image and changes it to the next image using parameterized function
 function chatBoxes(chatImage) {
   if (chatImage.src == siteURL + "images/chat1.png") {
