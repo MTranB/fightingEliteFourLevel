@@ -70,5 +70,6 @@ body {
 }
 
 .scale{
+  display: block;
   transform: scale(1.5);
 }
