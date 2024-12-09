@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Start!</title>
+    <link rel="stylesheet" href="styles2.css" />
+  </head>
+  <body id="firstPage">
+    <div class="startrow"></div>
+    <div class="startrow">
+      <div class="startbox"></div>
+      <div class="startbox"></div>
+      <div class="startbox center-content">
+        <img
+          onclick="showModal()"
+          src="images/characterfinal.png"
+          class="clickable img"
+          id="myImage"
+        />
+      </div>
+    </div>
+    <div id="myModal" class="modal">
+      <span class="close">&times;</span>
+      <div class="mrow center-content">
+        <img
+          class="clickable ctext"
+          onclick="chatBoxes(this)"
+          id="chatBox"
+          src="images/chat1.png"
+        />
+      </div>
+    </div>
+    <script src="script2.js"></script>
+    <script src="preload.js"></script>
+  </body>
+</html>

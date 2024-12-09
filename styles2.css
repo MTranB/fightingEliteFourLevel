@@ -1,0 +1,70 @@
+body {
+  height: 100vh;
+  width: 100vw;
+  display: block;
+  margin: 0;
+  overflow: hidden;
+  background-image: url(images/arena.png);
+  background-size: contain;
+  background-attachment: fixed;
+  background-position: center;
+}
+
+.startrow {
+  width: 100%;
+  height: 25%;
+  display: flex;
+}
+.startbox {
+  width: 20%;
+  height: 100%;
+}
+.img {
+  max-height: 40%;
+  max-width: 50%;
+}
+.ctext {
+  max-height: 100%;
+  max-width: 100%;
+}
+.clickable {
+}
+.clickable:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+}
+.clickable:active {
+  filter: drop-shadow(0px 0px 3px);
+  transform: scale(0.98);
+}
+
+.mrow {
+  width: 100%;
+  height: 50%;
+  display: flex;
+}
+
+.center-content {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.hidden {
+  display: none;
+}
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: hidden; /* Enable scroll if needed */
+  background-color: rgba(0, 0, 0, 0.8); /* Black with transparency */
+}
+.chatBoxes {
+  width: 60%;
+  height: 60%;
+}
