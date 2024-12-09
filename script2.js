@@ -17,5 +17,5 @@ function chatBoxes(chatImage) {
 
 function showModal() {
   console.log("show modal");
-  document.getElementById("myModal").style.display = "flex";
+  document.getElementById("myModal").style.display = "block";
 }
