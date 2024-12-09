@@ -167,5 +167,5 @@ function triggerSpin() {
 }
 
 function nextPage() {
-  window.location.href = "https://vqvdgk.csb.app/";
+  window.location.href = "https://mantar4y.github.io/Elite4-Ghost";
 }
