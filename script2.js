@@ -1,5 +1,7 @@
+var click = new Audio("sounds/click.m4a");
 //checks the src of the image and changes it to the next image using parameterized function
 function chatBoxes(chatImage) {
+  click.play();
   //split the returned text at the / after "images" and store what comes after it
   const imageFileName = chatImage.src.split("/").pop();
 
