@@ -129,8 +129,8 @@ document.addEventListener("keydown", function (event) {
   //checks if the modal is open and the space key has been pressed
   if (event.code === "Space" && open == true) {
     const pageWidth = window.innerWidth; //sets a variable for the width of the whole page
-    const leftBoundary = pageWidth * 0.4; //divides the page width by 3 to get the first one third of the page
-    const rightBoundary = pageWidth * 0.6; //multiplies the page by .6 to get the latter 60% of the page
+    const leftBoundary = pageWidth * 0.425; //divides the page width by 3 to get the first one third of the page
+    const rightBoundary = pageWidth * 0.575; //multiplies the page by .6 to get the latter 60% of the page
     const fistPosition = fist.getBoundingClientRect().left; //grabs the fist image's position offset from the left side of the screen based off of its "hitbox"
     //checks if the position of the fist image is between 30% and 60% of the page aka the middle third of the page
     if (fistPosition > leftBoundary && fistPosition < rightBoundary) {
