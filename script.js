@@ -129,14 +129,14 @@ document.addEventListener("keydown", function (event) {
   //checks if the modal is open and the space key has been pressed
   if (event.code === "Space" && open == true) {
     const pageWidth = window.innerWidth; //sets a variable for the width of the whole page
-    const leftBoundary = pageWidth * 0.3; //divides the page width by 3 to get the first one third of the page
+    const leftBoundary = pageWidth * 0.4; //divides the page width by 3 to get the first one third of the page
     const rightBoundary = pageWidth * 0.6; //multiplies the page by .6 to get the latter 60% of the page
     const fistPosition = fist.getBoundingClientRect().left; //grabs the fist image's position offset from the left side of the screen based off of its "hitbox"
     //checks if the position of the fist image is between 30% and 60% of the page aka the middle third of the page
     if (fistPosition > leftBoundary && fistPosition < rightBoundary) {
       block(); //triggers the block image to appear by toggling its visibility class
       level += 1; //adds 1 to lvl
-      speed -= 75; //reduces length of fist image's animation by .075 seconds
+      speed -= 100; //reduces length of fist image's animation by .075 seconds
       //checks if the final pokemon has been defeated or not. If not it changes to the next pokemon
       if (level < 6) {
         changePokemon();
