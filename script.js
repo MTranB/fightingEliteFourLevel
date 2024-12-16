@@ -136,7 +136,7 @@ document.addEventListener("keydown", function (event) {
     if (fistPosition > leftBoundary && fistPosition < rightBoundary) {
       block(); //triggers the block image to appear by toggling its visibility class
       level += 1; //adds 1 to lvl
-      speed -= 100; //reduces length of fist image's animation by .075 seconds
+      speed -= 110; //reduces length of fist image's animation by .075 seconds
       //checks if the final pokemon has been defeated or not. If not it changes to the next pokemon
       if (level < 6) {
         changePokemon();
